@@ -1,2 +1,3 @@
-# dcat-tagsinput
-bootstrap-tagsinput for dcat admin
+# Dcat Admin Extension
+
+

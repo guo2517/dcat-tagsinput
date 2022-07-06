@@ -1,0 +1,32 @@
+{
+    "name": "fitop/tags-input",
+    "alias": "",
+    "description": "Bootstrap-Tagsinput for Dcat Admin , 自定义标签输入框",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/fitop/tags-input",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MrGuo",
+            "email": "1064119441@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fitop\\TagsInput\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Fitop\\TagsInput\\TagsInputServiceProvider",
+        "laravel": {
+            "providers": [
+                "Fitop\\TagsInput\\TagsInputServiceProvider"
+            ]
+        }
+    }
+}
