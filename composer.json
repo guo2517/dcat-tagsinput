@@ -1,5 +1,5 @@
 {
-    "name": "fitop/tags-input",
+    "name": "fitop/dcat-tagsinput",
     "alias": "",
     "description": "Bootstrap-Tagsinput for Dcat Admin , 自定义标签输入框",
     "type": "library",
